@@ -1,24 +1,21 @@
-public class monsters{
+class monsterFightClub{
 private String name;
 private int hp;
 private String attackOne;
-private int attackOneNum;
 private int attackOneDamage;
 private String attackOneEffect;
-private int attackOneOdds;
+private double attackOneOdds;
 private String attackTwo;
-private int attackTwoNum;
 private int attackTwoDamage;
 private String attackTwoEffect;
-private int attackTwoOdds;
+private double attackTwoOdds;
 private String attackThree;
-private int attackThreeNum;
 private int attackThreeDamage;
 private String attackThreeEffect;
-private int attackThreeOdds;
+private double attackThreeOdds;
 private String pic;
 private int difficulty;
-public monsters(String Name, int Hp, String AttackOne, int AttackOneNum, int AttackOneDamage, String AttackOneEffect, int AttackOneOdds, String AttackTwo, int AttackTwoNum, int AttackTwoDamage, String AttackTwoEffect, int AttackTwoOdds, String AttackThree, int AttackThreeNum, int AttackThreeDamage, String AttackThreeEffect, int AttackThreeOdds, String Pic, int Difficulty){ 
+public monsterFightClub(String Name, int Hp, String AttackOne, int AttackOneDamage, String AttackOneEffect, double AttackOneOdds, String AttackTwo, int AttackTwoDamage, String AttackTwoEffect, double AttackTwoOdds, String AttackThree, int AttackThreeDamage, String AttackThreeEffect, double AttackThreeOdds, String Pic, int Difficulty){ 
   name=Name;
   hp=Hp;
   attackOne=AttackOne;
@@ -33,7 +30,55 @@ public monsters(String Name, int Hp, String AttackOne, int AttackOneNum, int Att
   attackThreeDamage=AttackThreeDamage;
   attackThreeEffect=AttackThreeEffect;
   attackThreeOdds=AttackThreeOdds;
+  pic=Pic;
   difficulty=Difficulty;
   }
-  
+  public String name(){
+    return name;
+  }
+  public int hp(){
+    return hp;
+  }
+  public String attackOne(){
+    return attackOne;
+  }
+  public int attackOneDamage(){
+    return attackOneDamage;
+  }
+  public String attackOneEffect(){
+    return attackOneEffect;
+  }
+  public double attackOneOdds(){
+    return attackOneOdds;
+  }
+  public String attackTwo(){
+    return attackTwo;
+  }
+  public int attackTwoDamage(){
+    return attackTwoDamage;
+  }
+  public String attackTwoEffect(){
+    return attackTwoEffect;
+  }
+  public double attackTwoOdds(){
+    return attackTwoOdds;
+  }
+  public String attackThree(){
+    return attackThree;
+  }
+  public int attackThreeDamage(){
+    return attackThreeDamage;
+  }
+  public String attackThreeEffect(){
+    return attackThreeEffect;
+  }
+  public double attackThreeOdds(){
+    return attackThreeOdds;
+  }
+  public String pic(){
+    return pic;
+  }
+  public int difficulty(){
+    return difficulty;
+  }
 }
